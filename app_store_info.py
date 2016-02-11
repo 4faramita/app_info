@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-#by 4faramita
+#by 4faramita 
 
 import urllib2
 from bs4 import BeautifulSoup
@@ -66,11 +66,11 @@ else:
 
 if price == u'免费':
 	if iap == False:
-		result = '「'+title_u+'」适用于 iOS '+ver_u+' 的 '+device+'，大小 '+space+'，完全免费。' 
+		result = '「'+title_u+'」适用于 iOS '+ver_u+'+ 的 '+device+'，大小 '+space+'，完全免费。' 
 	else:
-		result = '「'+title_u+'」适用于 iOS '+ver_u+' 的 '+device+'，大小 '+space+'，免费有内购。' 
+		result = '「'+title_u+'」适用于 iOS '+ver_u+'+ 的 '+device+'，大小 '+space+'，免费有内购。' 
 else:
-	result = '「'+title_u+'」适用于 iOS '+ver_u+' 的 '+device+'，大小 '+space+'，售价 '+price_u+'。'
+	result = '「'+title_u+'」适用于 iOS '+ver_u+'+ 的 '+device+'，大小 '+space+'，售价 '+price_u+'。'
 
 
 print (result)
