@@ -1,5 +1,5 @@
 # app_info
-fetch app's basical info from app store(and Google Play soon)
+Fetch app's basical info from App Store(and Google Play soon)
 
 It simply fetches data from App Store and make it a sentence.
 For anyone who do not want to copy and paste them word by word.  
