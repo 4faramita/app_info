@@ -1,4 +1,4 @@
-# app_info
+# appso_info
 Fetch app's basical info from App Store(and Google Play soon)
 
 **Not for Windows for now (cuz encoding on Windows is a PAIN IN THE ASS!!!)**
